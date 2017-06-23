@@ -1,0 +1,16 @@
+resolver: lts-8.16
+compiler: ghc-8.0.2
+compiler-check: match-exact
+
+packages:
+- '.'
+
+extra-deps:
+- hmatrix-0.18.0.0
+- zlib-0.6.1.2
+- MissingH-1.4.0.1
+- attoparsec-0.13.1.0
+
+flags: {}
+
+extra-package-dbs: []
